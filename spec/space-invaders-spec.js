@@ -19,7 +19,7 @@ describe('CrewMember', function() {
   it('should return "had no effect" when the crew member tries to use their special ability', function() {
     expect(tristan.engageWarpDrive()).toBe('had no effect');
     expect(jon.setsInvisibility()).toBe('had no effect');
-    expect(katie.chargePhasers()).toBe('had no effect');    
+    expect(katie.chargePhasers()).toBe('had no effect');
   });
 });
 
@@ -96,5 +96,5 @@ describe('Ship with a crew', function() {
     jon.setsInvisibility();
     expect(spaceship.cloaked).toBe(true);
   });
-  
+
 });
